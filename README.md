@@ -1,4 +1,4 @@
-#Spring Boot SOAP Web Service
+# Spring Boot SOAP Web Service
 
 Proyecto Web Service con SOAP para buscar Alumnos por nif
 
@@ -40,7 +40,7 @@ Clase donde se definien los mensajes de entrada y salida para el servicio de alu
 
 ## Ejemplo llamada desde SOAP UI
 
-![Alt text](https://github.com/anderuraga/spring-boot-soap/blob/master/resources/screenshot1.png)
+![Alt text](https://github.com/anderuraga/spring-boot-soap/blob/master/screenshot1.png)
 
 			
 			 
