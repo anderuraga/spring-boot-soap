@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://formacion.ipartek.com/web-service-soap"
+	targetNamespace="http://formacion.ipartek.com/web-service-soap"
+	elementFormDefault="qualified">
+
+
+
+	<xs:element name="getAlumnoRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nif" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getAlumnoResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="alumnoInfo" type="tns:alumnoInfo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="alumnoInfo">
+		<xs:sequence>
+		    <xs:element name="nif" type="xs:string" />
+			<xs:element name="nombre" type="xs:string" />
+			<xs:element name="apellidos" type="xs:string" />
+			<xs:element name="email" type="xs:string" />			
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>
